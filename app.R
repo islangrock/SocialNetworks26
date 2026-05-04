@@ -11,6 +11,8 @@ library(ggraph)
 
 library(visNetwork)
 
+library(rsconnect)
+
 # Section 2. Design the site in the UI section (US = User Interface). This is where we define how everything looks and 
 # how people can use the app. 
 
@@ -164,5 +166,4 @@ output$int_network <- renderVisNetwork({
 shinyApp(ui = ui, server = server)
 
 
-rsconnect::writeManifest()
 
