@@ -164,4 +164,5 @@ output$int_network <- renderVisNetwork({
 shinyApp(ui = ui, server = server)
 
 
+rsconnect::writeManifest()
 
