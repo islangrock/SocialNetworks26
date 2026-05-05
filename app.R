@@ -145,7 +145,7 @@ output$int_network <- renderVisNetwork({
                highlight =  "purple"))|>
     
     visEdges(
-      color = list(color = "purple", highlight = "black")) |> 
+      color = list(color = "green", highlight = "black")) |> 
     
     visOptions(
       highlightNearest = list(enabled = TRUE, hover = TRUE), 
